@@ -1,0 +1,165 @@
+{
+  "schedule": [
+    {
+      "id": "61dbae02-c147-4e28-863c-db7bd402b2d6",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "jdoe@gmail.com",
+      "phone": "4195556422",
+      "startTime": "2/12/2024, 4:00:00 PM",
+      "duration": "30"
+    },
+    {
+      "id": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bsmith@gmail.com",
+      "phone": "4195558888",
+      "startTime": "2/12/2024, 5:00:00 PM",
+      "duration": "50"
+    },
+    {
+      "id": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
+      "firstName": "Jason",
+      "lastName": "Lee",
+      "email": "jbone@gmail.com",
+      "phone": "4195559999",
+      "startTime": "2/15/2024, 12:00:00 PM",
+      "duration": "50"
+    },
+    {
+      "id": "7aff9db6-6224-4827-bbd0-f507c42d0ba3",
+      "firstName": "Brett",
+      "lastName": "Rich",
+      "email": "br@gmail.com",
+      "phone": "4195756422",
+      "startTime": "2/15/2024, 4:00:00 PM",
+      "duration": "30"
+    },
+    {
+      "id": "b9cc7180-01db-46b7-80bc-c73f2dd90eeb",
+      "firstName": "Brett",
+      "lastName": "Rich",
+      "email": "br@gmail.com",
+      "phone": "4195756422",
+      "startTime": "2/16/2024, 6:00:00 PM",
+      "duration": "30"
+    },
+    {
+      "id": "36e1e3ed-b148-4ac7-9a4a-1d5379507cba",
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bjohn@gmail.com",
+      "phone": "4195558989",
+      "startTime": "2/19/2024, 4:00:00 PM",
+      "duration": "50"
+    },
+    {
+      "id": "66fa940b-c580-40b6-b16c-d395ad2425b9",
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bjohn@gmail.com",
+      "phone": "4195558989",
+      "startTime": "2/21/2024, 4:00:00 PM",
+      "duration": "50"
+    }
+  ],
+  "clients": [
+    {
+      "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "jdoe@gmail.com",
+      "phone": "4195556422",
+      "password": "samplePassword"
+    },
+    {
+      "id": "2b9130d4-47a7-4085-800e-0144f6a46059",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bsmith@gmail.com",
+      "phone": "4195558888",
+      "password": ""
+    },
+    {
+      "id": "11817fb1-03a1-4b4a-8d27-854ac893cf41",
+      "firstName": "Jason",
+      "lastName": "Lee",
+      "email": "jbone@gmail.com",
+      "phone": "4195559999",
+      "password": ""
+    },
+    {
+      "id": "6a89217b-7c28-4219-bd7f-af119c314159",
+      "firstName": "Brett",
+      "lastName": "Rich",
+      "email": "br@gmail.com",
+      "phone": "4195756422",
+      "password": "testingPasswordUpdate"
+    },
+    {
+      "id": "6e4c7b35-dcbf-4ae0-98ec-bfb5264e03a8",
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bjohn@gmail.com",
+      "phone": "4195558989",
+      "password": ""
+    }
+  ],
+  "records": [
+    {
+      "id": "6a89217b-7c28-4219-bd7f-af119c314159",
+      "clientId": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "appointmentDateTime": "1/31/2024, 4:00:00 PM",
+      "duration": "30",
+      "payType": "FirstTime",
+      "payMethod": "Venmo",
+      "paymentAmount": 10
+    },
+    {
+      "id": "0bff586f-2017-4526-9e52-fe3ea46d55ab",
+      "clientId": "2b9130d4-47a7-4085-800e-0144f6a46059",
+      "appointmentDateTime": "2/1/2024, 6:00:00 PM",
+      "duration": "50",
+      "payType": "Single",
+      "payMethod": "Cash",
+      "paymentAmount": 20
+    },
+    {
+      "id": "365cc0bb-ba8f-41d3-bf82-83d041d38b82",
+      "clientId": "11817fb1-03a1-4b4a-8d27-854ac893cf41",
+      "appointmentDateTime": "2/7/2024, 5:00:00 PM",
+      "duration": "50",
+      "payType": "4Pack",
+      "payMethod": "Venmo",
+      "paymentAmount": 60
+    },
+    {
+      "id": "62251cfe-fdb6-4fa6-9a2d-c21be93ac78d",
+      "clientId": "6a89217b-7c28-4219-bd7f-af119c314159",
+      "appointmentDateTime": "2/8/2024, 12:00:00 PM",
+      "duration": "30",
+      "payType": "4Pack",
+      "payMethod": "Cash",
+      "paymentAmount": 50
+    },
+    {
+      "id": "38e9b18b-8462-4e96-a3fb-5e8be5a28d23",
+      "clientId": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "appointmentDateTime": "2/9/2024, 4:00:00 PM",
+      "duration": "30",
+      "payType": "Single",
+      "payMethod": "Venmo",
+      "paymentAmount": 15
+    },
+    {
+      "id": "639fc993-e4fc-486d-a491-308b93fb2b97",
+      "clientId": "2b9130d4-47a7-4085-800e-0144f6a46059",
+      "appointmentDateTime": "2/9/2024, 5:00:00 PM",
+      "duration": "50",
+      "payType": "Single",
+      "payMethod": "Venmo",
+      "paymentAmount": 20
+    }
+  ]
+}
